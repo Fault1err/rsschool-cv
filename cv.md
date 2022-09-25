@@ -28,3 +28,9 @@ function multiply(a, b){
 return a * b;
 }
 ```
+*****     
+## Languages
+
+* Russian - Native
+* English - Upper-Intermediate
+
