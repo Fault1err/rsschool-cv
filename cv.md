@@ -14,11 +14,17 @@ I'm a student of RSSchool :)
 *****
 
 ## Skills
-******
+
 * HTML
 * CSS/SASS
 * JavaScript (Basic)
 * Git
 
 *****
+## Code example
 
+```
+function multiply(a, b){
+return a * b;
+}
+```
