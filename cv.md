@@ -4,8 +4,7 @@
 *****
 ## Contacts
 * __Discord:__ Fault1err#6756
-* __E-mail:__ oalkozlova@gmail.com
-* __GitHub:__ https://github.com/Fault1err
+* __GitHub:__ [https://github.com/Fault1err](https://github.com/Fault1err)
 
 *****
 ## About myself
