@@ -9,7 +9,16 @@
 
 *****
 ## About myself
-I'm a student of RSSchool
+I'm a student of RSSchool :)
+
+*****
+
+## Skills
+******
+* HTML
+* CSS
+* JavaScript (Basic)
+* Git
 
 *****
 
