@@ -16,7 +16,7 @@ I'm a student of RSSchool :)
 ## Skills
 ******
 * HTML
-* CSS
+* CSS/SASS
 * JavaScript (Basic)
 * Git
 
