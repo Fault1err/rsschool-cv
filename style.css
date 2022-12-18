@@ -23,3 +23,7 @@
 	width: 100px;
 }
 
+.contacts {
+	display: flex;
+	background-color: aquamarine;
+}
