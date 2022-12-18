@@ -2,13 +2,24 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
-	}
 
-h1 {
-  font-size: 70px;
-  font-weight: 600;
-  background-image: linear-gradient(to left, #553c9a, #b393d3);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
 }
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+}
+
+.main_block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img {
+	width: 100px;
+}
+
