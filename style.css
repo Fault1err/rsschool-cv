@@ -13,8 +13,6 @@ body {
 	max-width: 800px;
 	margin: 0 auto;
 	min-height: calc(100vh - 50px);
-
-	;
 }
 
 .header {
@@ -23,6 +21,18 @@ body {
 	font-size: 12px;
 	background-color: #C9E9FF;
 	padding-right: 15px;
+}
+
+.nav_block {
+	width: 20%;
+}
+
+.link {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
 }
 
 .main_block {
@@ -39,12 +49,14 @@ body {
 	padding-right: 0px;
 }
 
-.contacts {
-	display: flex;
-}
-
 .cv_section {
 	padding-top: 30px;
+}
+
+.sec_flex {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 0%;
 }
 
 .cv_section_h2 {
@@ -52,8 +64,25 @@ body {
 }
 
 .cv_text {
+	display: flex;
 	line-height: 30px;
 	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+.cv_text_skills {
+	line-height: 30px;
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+.code_example_block {
+	background-color: #C9E9FF;
+	width: 100%;
+	min-height: 80px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-left: 30px;
 }
 
 .footer {
@@ -62,8 +91,42 @@ body {
 }
 
 .footer_cont {
+	display: flex;
+	justify-content: space-between;
 	max-width: 800px;
 	margin: 0 auto;
 	padding-top: 5px;
 	text-align: right;
+}
+
+.footer_menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.footer_flex {
+	display: flex;
+}
+
+.nav_a {
+	text-decoration: none;
+	padding-right: 30px;
+	color: black;
+}
+
+.link_projects {
+	text-decoration: none;
+	color: black;
+}
+
+.mygithub_link {
+	text-decoration: none;
+	padding-top: 15px;
+	color: black;
+	margin-top: 10px;
+}
+
+.footerlink {
+	margin-bottom: 10px;
 }
