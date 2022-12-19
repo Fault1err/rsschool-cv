@@ -7,64 +7,115 @@
     <meta name="viewport" content="width=,, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+    </style>
 </head>
 
 <body>
+    <header class="header">CV for RSSchool
+    </header>
     <div class="container">
-        <header class="header">CV</header>
-
         <main class="main_block">
             <div>
-                <div class="name">Olga B</div>
-                <div>Junior Frontend Developer</div>
+                <h1 class="my_name">Olga B.</h1>
+                <h2>Junior Frontend Developer</h2>
             </div>
             <div class="photo">
                 <img class="img" src="img/sloth.jpeg" alt="sloth">
             </div>
         </main>
+
+        <section class="cv_section">
+            <h2 class="cv_section_h2"><a id="cont"></a>Contacts</h2>
+            <ul>
+                <li class="cv_text">
+                    <p class="cont_p"><b>Discord:&nbsp;</b></p>Fault1err#6756
+                </li>
+                <li class="cv_text">
+                    <p class="cont_p"><b>GitHub:&nbsp;</b></p><a class="link_projects"
+                        href="https://github.com/Fault1err">Fault1err</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="cv_section">
+            <h2 class="cv_section_h2"><a id="about"></a>About myself</h2>
+            <p class="cv_text">I'm a student of RSSchool :) </p>
+            <p class="cv_text">I try to learn something new almost every day and the RSSchool always gives me this
+                opportunity. I was happy to find RSSchool as I think there are a few courses that can give you so
+                many practical tasks with feedback. And, of course, there is such a unique atmosphere of mutual
+                assistance where you can be sure that you receive advice or other support.</p>
+            <p class="cv_text">I’m only at the starting point of my education (I strongly believe that I need a few
+                years of learning to become a programmer). At this time I try to complete all the tasks that I
+                receive in RSSchool and I would say that is not so easy.</p>
+            <p class="cv_text">I suppose to continue my education and develop my knowledge of HTML, CSS and JavaScript.
+                I’m going to start using SASS or SCSS in every project and of course start learning one of JavaScript
+                frameworks - I believe it would be React. In the future I would like to get a position of
+                the junior frontend developer in an IT-company.</p>
+        </section>
+
+        <div class="sec_flex">
+            <section class="cv_section">
+                <h2 class="cv_section_h2"><a id="skills"></a>Skills</h2>
+                <ul class="cv_text_skills">
+                    <li>HTML</li>
+                    <li>CSS/SASS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+
+            <section class="cv_section">
+                <h2 class="cv_section_h2"><a id="projects"></a>Projects</h2>
+                <ul class="cv_text_skills">
+                    <li><a class="link_projects" href="https://github.com/Fault1err/rsschool-cv">RSSchool CV</a></li>
+                    <li><a class="link_projects"
+                            href="https://github.com/Fault1err/clean-code-s1e1/tree/clean-code-s1e1">RSSchool Clean
+                            Code</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="cv_section">
+                <h2 class="cv_section_h2"><a id="lang"></a>Languages</h2>
+                <ul class="cv_text_skills">
+                    <li>Russian - Native</li>
+                    <li>English - Upper-Intermediate</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="code_example">
+            <h2 class="cv_section_h2"><a id="code"></a>Code example</h2>
+            <div class="code_example_block">
+                <code class="code_text">function multiply(a, b){ <br>
+            return a * b; <br>
+            }</code>
+            </div>
+        </section>
+
     </div>
+    <footer class="footer">
+        <div class="footer_cont">
+            <nav class="nav_block">
+                <ul class="footer_menu">
+                    <li><a class="nav_a" href="#cont">Contacts</a></li>
+                    <li><a class="nav_a" href="#about">About&nbsp;myself</a></li>
+                    <li><a class="nav_a" href="#skills">Skills</a></li>
+                    <li><a class="nav_a" href="#lang">Languages</a></li>
+                    <li><a class="nav_a" href="#code">Code&nbsp;example</a></li>
+                </ul>
+            </nav>
 
-
-
-    Contacts
-    Discord: Fault1err#6756
-    GitHub: [https://github.com/Fault1err](https://github.com/Fault1err)
-
-
-    About myself
-    I'm a student of RSSchool :)
-
-
-
-    Skills
-
-    HTML
-    CSS/SASS
-    JavaScript (Basic)
-    Git
-
-
-    Code example
-
-    ```
-    function multiply(a, b){
-    return a * b;
-    }
-    ```
-
-    Languages
-
-    Russian - Native
-    English - Upper-Intermediate
-
-
-
-
-
-
-
-    <h1>Hello world!</h1>
+            <div>
+                <a class="footer_link" href="https://rs.school/js/"><img src="img/rs_school_js.svg"
+                        alt="RSSchool logo"></a>
+                <a class="mygithub_link" href="https://github.com/Fault1err">My GitHub</a>
+                <p>2022</p>
+            </div>
+        </div>
+    </footer>
 </body>
-
 
 </html>
